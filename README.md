@@ -1,7 +1,7 @@
 # Energycompress
 
 EnergyCompress is a general case base learning strategy
-that can be used to learn a competent case base for ML algorithms such as $k$-NN, both reducing inference time and increasing prediction performance.
+that can be used to learn a competent case base for ML algorithms such as k-NN, both reducing inference time and increasing prediction performance.
 
 ![animation: sculpting the decision frontier](images/animated_moons.gif)
 
@@ -29,17 +29,17 @@ paper proposes a strategy, called EnergyCompress,
 to learn an effective case base by selecting relevant
 cases from an initial set. Use of EnergyCompress
 decreases CBP inference time, through case base
-compression, and also increases prediction perfor-
-mance, for a wide variety of CBP algorithms. Ener-
-gyCompress relies on a general formulation of the
-CBP task in the framework of energy-based mo-
-dels, which leads to a new and valuable characte-
-rization of the notion of competence in case-based
+compression, and also increases prediction performance, 
+for a wide variety of CBP algorithms. EnergyCompress 
+relies on a general formulation of the
+CBP task in the framework of energy-based models, 
+which leads to a new and valuable characterization 
+of the notion of competence in case-based
 reasoning, in particular at the source case level.
 Extensive experimental results on 18 benchmarks
-comparing EnergyCompress to 5 reference algo-
-rithms for case base maintenance support the bene-
-fit of the proposed strategy.
+comparing EnergyCompress to 5 reference algorithms 
+for case base maintenance support the benefit of 
+the proposed strategy.
 
 __Python Code__ ([link](https://github.com/EMarquer/MeATCube/tree/maintenance_benchmark))
 
